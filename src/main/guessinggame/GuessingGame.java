@@ -22,8 +22,8 @@ public class GuessingGame {
             numberOfGames++;
 
             guessCount.add(guessNumber());
-            System.out.println("Play again (y/n)? ");
             System.out.println("I averaged " + getAverage(guessCount) + " per game for " + numberOfGames + " games.");
+            System.out.println("Play again (y/n)? ");
             playAgain = reader.next().toLowerCase();
         }
         reader.close();

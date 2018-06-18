@@ -1,10 +1,5 @@
 package main.chessgame;
 
-import main.chessgame.piece.Knight;
-import main.chessgame.piece.Piece;
-import main.chessgame.piece.Queen;
-import main.chessgame.piece.Rook;
-
 import java.util.List;
 
 public class ChessGame {
@@ -54,7 +49,7 @@ public class ChessGame {
     }
 
     public static void main(String[] args) {
-        new ChessGame("rook", "d2");
+        new ChessGame(args[0], args[1]);
     }
 
 }
